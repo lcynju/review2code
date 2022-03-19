@@ -1,0 +1,3 @@
+is mount point
+{ for final file root : file list roots { if root equals file { return true } } return false
+

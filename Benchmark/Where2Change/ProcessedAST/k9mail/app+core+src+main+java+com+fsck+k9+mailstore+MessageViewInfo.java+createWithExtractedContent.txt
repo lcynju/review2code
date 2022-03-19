@@ -1,0 +1,3 @@
+create with extracted content
+{ return new message view info message is message incomplete root part null false text attachments null attachment resolver null collections attachment view info empty list
+

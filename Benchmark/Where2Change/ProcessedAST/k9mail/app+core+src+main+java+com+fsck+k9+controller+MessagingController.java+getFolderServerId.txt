@@ -1,0 +1,3 @@
+get folder server id
+{ local store local store = get local store or throw account return local store get folder server id folder id
+

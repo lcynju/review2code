@@ -1,0 +1,3 @@
+process pending commands
+{ put background process pending commands null new runnable { override public void run { try { process pending commands synchronous account } catch unavailable storage exception e { timber i failed to process pending command because storage is not available - " + trying again later throw new unavailable account exception e } catch messaging exception me { timber e me process pending commands } } });}
+/* * ignore any exceptions from the commands commands will be processed * on the next round */

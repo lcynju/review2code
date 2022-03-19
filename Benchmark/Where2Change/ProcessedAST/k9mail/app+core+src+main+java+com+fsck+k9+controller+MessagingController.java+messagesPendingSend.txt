@@ -1,0 +1,3 @@
+messages pending send
+{ try { local folder local folder = local store provider get instance account get folder account get outbox folder id if local folder exists { return false } local folder open if local folder get message count > 0) { return true } } catch exception e { timber e e exception while checking for unsent messages } return false
+

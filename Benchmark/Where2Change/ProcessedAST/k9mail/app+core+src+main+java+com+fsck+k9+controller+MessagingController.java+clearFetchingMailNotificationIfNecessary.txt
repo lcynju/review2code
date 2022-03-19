@@ -1,0 +1,3 @@
+clear fetching mail notification if necessary
+{ if account is notify sync { notification controller clear fetching mail notification account }}
+

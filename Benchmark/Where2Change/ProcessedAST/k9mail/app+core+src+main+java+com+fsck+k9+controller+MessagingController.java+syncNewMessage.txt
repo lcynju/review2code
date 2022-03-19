@@ -1,0 +1,3 @@
+sync new message
+{ local message message = load message folder server id message server id local folder local folder = message get folder if suppress notifications && notification strategy should notify for message account local folder message is old message { timber v creating notification for message s s local folder get name message get uid notification controller add new mail notification account message previous unread message count } if message is set flag seen { for messaging listener messaging listener : get listeners listener { messaging listener synchronize mailbox new message account folder server id message } }}
+// send a notification of this message notify with the local message so that we don t have to recalculate the content preview

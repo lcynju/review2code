@@ -1,0 +1,3 @@
+get memory key
+{ return account get description + ":" + folder id
+

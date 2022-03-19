@@ -1,0 +1,3 @@
+is ring notified
+{ return ring notified
+

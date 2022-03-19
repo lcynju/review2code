@@ -1,0 +1,3 @@
+init
+{ m root = compute root context m application dir = new file m root k
+// use storage root k

@@ -1,0 +1,3 @@
+on next
+{ if m client certificate check box is checked { on manual setup return } string email = m email view get text to string connection settings connection settings = providers xml discovery discover email discovery target incoming and outgoing if connection settings != null { finish auto setup connection settings } else { on manual setup }}
+// auto setup doesn t support client certificates we don t have default settings for this account start the manual setup process

@@ -1,0 +1,3 @@
+synchronize mailbox synchronous
+{ refresh folder list if stale account backend backend = get backend account sync folder account folder id listener backend
+

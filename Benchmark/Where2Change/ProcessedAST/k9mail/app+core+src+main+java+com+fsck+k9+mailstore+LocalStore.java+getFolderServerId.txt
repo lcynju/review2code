@@ -1,0 +1,3 @@
+get folder server id
+{ return database execute false db -> { try cursor cursor = db query folders new string { server id }, id = ?", new string { long to string folder id }, null null null { if cursor move to first && cursor is null { return cursor get string } else { throw new messaging exception folder not found by database id " + folder id true } } });}
+

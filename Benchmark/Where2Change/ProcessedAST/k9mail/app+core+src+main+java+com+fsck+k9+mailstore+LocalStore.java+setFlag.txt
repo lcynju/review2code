@@ -1,0 +1,3 @@
+set flag
+{ final content values cv = new content values cv put get column name for flag flag new state do batch set selection new batch set selection { override public int get list size { return message ids size } override public string get list item int index { return long to string message ids get index } override public void do db work sqlite database db string selection set string selection args throws unavailable storage exception { db update messages cv empty = 0 and id + selection set selection args } override public void post db work { notify change } }, flag update batch size
+

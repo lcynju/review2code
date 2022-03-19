@@ -1,0 +1,3 @@
+lock read
+{ m read lock lock try { get storage manager lock provider m storage provider id } catch unavailable storage exception | runtime exception e { m read lock unlock throw e }}
+

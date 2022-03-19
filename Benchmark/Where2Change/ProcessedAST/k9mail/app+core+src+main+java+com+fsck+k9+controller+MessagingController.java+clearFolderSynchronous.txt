@@ -1,0 +1,3 @@
+clear folder synchronous
+{ try { local folder local folder = local store provider get instance account get folder folder id local folder open local folder clear all messages } catch unavailable storage exception e { timber i failed to clear folder because storage is not available - trying again later throw new unavailable account exception e } catch exception e { timber e e clear folder failed }}
+

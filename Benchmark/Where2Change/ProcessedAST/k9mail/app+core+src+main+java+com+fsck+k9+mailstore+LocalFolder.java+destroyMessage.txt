@@ -1,0 +1,3 @@
+destroy message
+{ destroy message local message get database id local message get message part id local message get message id
+

@@ -1,0 +1,3 @@
+on before unmount
+{ timber i storage path s unmounting path final storage provider provider = resolve provider path if provider == null { return } for final storage listener listener : m listeners { try { listener on unmount provider get id } catch exception e { timber w e error while notifying storage listener } } final synchronization aid sync = m provider locks get resolve provider path sync write lock lock sync unmounting = true sync write lock unlock
+

@@ -1,0 +1,3 @@
+load message metadata
+{ local store local store = local store provider get instance account local folder local folder = local store get folder folder id local folder open local message message = local folder get message uid if message == null || message get database id == 0) { string folder name = local folder get name throw new illegal argument exception message not found folder + folder name + ", uid + uid } fetch profile fp = new fetch profile fp add fetch profile item envelope local folder fetch collections singleton list message fp null return message
+

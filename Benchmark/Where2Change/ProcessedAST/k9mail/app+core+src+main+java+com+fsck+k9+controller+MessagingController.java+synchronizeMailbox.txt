@@ -1,0 +1,3 @@
+synchronize mailbox
+{ put background synchronize mailbox listener () -> synchronize mailbox synchronous account folder id listener
+

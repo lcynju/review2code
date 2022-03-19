@@ -1,0 +1,3 @@
+is ready
+{ try { final file root = m root get canonical file return is mount point root && environment media mounted equals environment get external storage state } catch ioexception e { timber w e specified root isn t ready s m root return false }}
+

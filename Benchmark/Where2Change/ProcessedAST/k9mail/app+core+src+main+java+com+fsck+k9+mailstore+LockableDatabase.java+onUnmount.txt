@@ -1,0 +1,3 @@
+on unmount
+{ if provider id equals m storage provider id { return } timber d lockable database closing db s due to unmount event on storage provider s u uid provider id try { lock write try { m db close } finally { unlock write } } catch unavailable storage exception e { timber w e unable to writelock on unmount }}
+

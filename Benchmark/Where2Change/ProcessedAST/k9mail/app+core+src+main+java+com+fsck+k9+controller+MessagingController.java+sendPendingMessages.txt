@@ -1,0 +1,3 @@
+send pending messages
+{ for account account : preferences get available accounts { send pending messages account listener }}
+

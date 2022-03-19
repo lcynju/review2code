@@ -1,0 +1,3 @@
+is available
+{ string local storage provider id = get local storage provider id boolean storage provider is internal memory = local storage provider id == null return storage provider is internal memory || storage manager get instance context is ready local storage provider id
+

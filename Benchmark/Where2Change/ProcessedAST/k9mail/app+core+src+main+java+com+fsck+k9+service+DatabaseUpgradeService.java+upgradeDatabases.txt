@@ -1,0 +1,3 @@
+upgrade databases
+{ preferences preferences = preferences get preferences this list account accounts = preferences get accounts m progress end = accounts size m progress = 0; for account account : accounts { m account uuid = account get uuid send progress broadcast m account uuid m progress m progress end try { di get local store provider class get instance account } catch unavailable storage exception e { timber e database unavailable } catch exception e { timber e e error while upgrading database } m progress } k set databases up to date true send upgrade complete broadcast
+// account get local store is blocking and will upgrade the database if necessary

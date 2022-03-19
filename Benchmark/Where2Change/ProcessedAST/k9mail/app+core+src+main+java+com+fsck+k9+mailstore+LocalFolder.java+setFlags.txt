@@ -1,0 +1,3 @@
+set flags
+{ open try { this local store get database execute true new db callback void { override public void do db work final sqlite database db throws wrapped exception unavailable storage exception { for local message message : messages { try { message set flags flags value } catch messaging exception e { timber e e something went wrong while setting flag } } return null } }); } catch wrapped exception e { throw messaging exception e get cause }}
+// use one transaction to set all flags

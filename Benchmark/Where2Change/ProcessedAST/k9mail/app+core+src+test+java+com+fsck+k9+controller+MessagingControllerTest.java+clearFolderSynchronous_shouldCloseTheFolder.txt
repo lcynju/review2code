@@ -1,0 +1,3 @@
+clear folder synchronous should close the folder
+{ controller clear folder synchronous account folder id verify local folder at least once close
+

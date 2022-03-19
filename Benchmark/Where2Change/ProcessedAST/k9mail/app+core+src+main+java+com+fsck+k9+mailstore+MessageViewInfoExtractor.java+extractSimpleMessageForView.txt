@@ -1,0 +1,3 @@
+extract simple message for view
+{ list attachment view info attachment infos = new array list viewable extracted text viewable = extract viewable and attachments collections singleton list content part attachment infos attachment resolver attachment resolver = attachment resolver create from part content part boolean is message incomplete = message is set flag x downloaded full || message extractor has missing parts message return message view info create with extracted content message content part is message incomplete viewable html attachment infos attachment resolver
+

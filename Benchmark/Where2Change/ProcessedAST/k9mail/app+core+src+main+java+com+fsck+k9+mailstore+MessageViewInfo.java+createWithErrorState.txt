@@ -1,0 +1,3 @@
+create with error state
+{ try { body empty body = new text body part empty part = new mime body part empty body text plain string subject = message get subject return new message view info message is message incomplete empty part subject false null null null null null null } catch messaging exception e { throw new assertion error e }}
+
